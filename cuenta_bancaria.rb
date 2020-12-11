@@ -7,8 +7,6 @@ class CuentaBancaria
         @nombre_de_usuario  = nombre
     end
 
-
-
     def initialize(nombre, cuenta, vip=0)
         if cuenta.digits.count != 8
             puts 'introducir cuenta con digito de 8 digitos'
@@ -30,7 +28,6 @@ class CuentaBancaria
         puts @numero_cuenta
     end
 end
-
 
 cuenta1=CuentaBancaria.new('ivan', 12345678,1)
 cuenta1.numero_cuenta

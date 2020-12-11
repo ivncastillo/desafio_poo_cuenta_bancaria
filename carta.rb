@@ -26,8 +26,8 @@ carta2=Carta.new()
 carta3=Carta.new()
 carta4=Carta.new()
 
-arreglo_numero=[carta1.get_numero, carta2.get_numero,carta3.get_numero,carta4.get_numero]
+arreglo_numeros=[carta1.get_numero, carta2.get_numero,carta3.get_numero,carta4.get_numero]
 arreglo_pintas=[carta1.get_pinta, carta2.get_pinta,carta3.get_pinta,carta4.get_pinta]
 
-puts arreglo_numero
+puts arreglo_numeros
 puts arreglo_pintas
