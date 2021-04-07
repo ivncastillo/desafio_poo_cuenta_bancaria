@@ -24,5 +24,5 @@ class CuentaBancaria
     end
 end
 
-cuenta1=CuentaBancaria.new('ivan', 2273073, 1)
+cuenta1=CuentaBancaria.new('ivan', 22730730, 1)
 cuenta1.numero_cuenta
