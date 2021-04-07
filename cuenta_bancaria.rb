@@ -1,11 +1,6 @@
 class CuentaBancaria
-    def get_nombre #Método getter
-        @nombre_de_usuario 
-    end
+    attr_accessor :nombre_de_usuario
     
-    def set_nombre(nombre) #Método setter
-        @nombre_de_usuario  = nombre
-    end
 
     def initialize(nombre, cuenta, vip=0)
         if cuenta.digits.count != 8
@@ -29,5 +24,5 @@ class CuentaBancaria
     end
 end
 
-cuenta1=CuentaBancaria.new('ivan', 12345678,1)
+cuenta1=CuentaBancaria.new('ivan', 2273073, 1)
 cuenta1.numero_cuenta
